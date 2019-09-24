@@ -23,3 +23,11 @@ after_success:
   - docker push phunhakent/mutli-cont-nginx
   - docker push phunhakent/mutli-cont-server
   - docker push phunhakent/mutli-cont-worker
+
+deploy:
+  provider: heroku
+  api_key:
+    master:
+      secure: $HEROKU_DEPLOYMENT_KEY
+  app:
+    master: demo-multiple-container
