@@ -7,7 +7,7 @@ setup:
 
 build:
   docker:
-    nginx: ./nginx/Dockerfile.prod
-    api: ./server/Dockerfile.prod
-    client: ./client/Dockerfile.prod
-    worker: ./worker/Dockerfile.prod
+    nginx: nginx/Dockerfile.prod
+    api: server/Dockerfile.prod
+    client: client/Dockerfile.prod
+    worker: worker/Dockerfile.prod
