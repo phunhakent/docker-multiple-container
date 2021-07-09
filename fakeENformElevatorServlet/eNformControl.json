@@ -1,0 +1,13 @@
+{
+  "poolname": "eNformControl",
+  "jdbcDriver": "oracle.jdbc.OracleDriver",
+  "jdbcURL": "jdbc:oracle:thin:@10.64.53.78:1521:PEORACLE19",
+  "username": "enform_ctrl",
+  "passwd": "6ADDEF92054992C0",
+  "encryptedPassword": true,
+  "autoCommit": false,
+  "maximalPoolSize": 3,
+  "timeout": 20000,
+  "sqlTest": "select error_id from el_job_error where 1\u003d2",
+  "id": "default"
+}

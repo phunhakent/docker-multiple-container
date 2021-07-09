@@ -1,0 +1,697 @@
+[
+  {
+    "order": 350,
+    "name": "TakeoverMail2PdfDocumentError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeovermail",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 501,
+    "name": "WaitForDocuments",
+    "statusList": ["QUEUE"],
+    "loglevel": 0,
+    "maxInstances": 0,
+    "minInstances": 0,
+    "groupId": "batch",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 112,
+    "name": "TakeoverFile2PdfDocumentError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 233,
+    "name": "TakeoverFile2TiffPageIgnore",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 990,
+    "name": "Repeat",
+    "statusList": [],
+    "loglevel": 0,
+    "maxInstances": 4,
+    "minInstances": 0,
+    "noOfQueuedJobs": 7
+  },
+  {
+    "order": 410,
+    "name": "TxtFileProcessor",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 4,
+    "minInstances": 1,
+    "groupId": "erender",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 358,
+    "name": "TakeoverFax2SmartFIX",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeovermail2smartfix",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 381,
+    "name": "TakeoverConcatPdfFiles2PdfDocumentError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeovereclient",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 111,
+    "name": "TakeoverFile2PdfDocumentDialog",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 811,
+    "name": "RestoreFromBackup",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "restore",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 414,
+    "name": "rsPowerpoint",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "erender",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 360,
+    "name": "TakeoverMailClient2PdfDocumentError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeoverextensions",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 380,
+    "name": "TakeoverConcatPdfFiles2JpegPageError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeovereclient",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 122,
+    "name": "TakeoverFile2PdfFileError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 600,
+    "name": "StoreFile",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 4,
+    "minInstances": 1,
+    "groupId": "archive",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 134,
+    "name": "TakeoverFile2PdfPageReplace",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 340,
+    "name": "TakeoverBatch2orig_check",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeoverbatch",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 401,
+    "name": "ContainerParser",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 4,
+    "minInstances": 1,
+    "groupId": "erender",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 600,
+    "name": "CallSmartFIX",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 4,
+    "minInstances": 1,
+    "groupId": "smartfix",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 221,
+    "name": "TakeoverFile2TiffFileDialog",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 133,
+    "name": "TakeoverFile2PdfPageIgnore",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 372,
+    "name": "TakeoverExplorer2PdfDocumentError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeoverextensions",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 383,
+    "name": "ConcatPdfFiles",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeovereclient",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 359,
+    "name": "TakeoverMail2SmartFIX",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeovermail2smartfix",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 334,
+    "name": "TakeoverFile2JpegPageReplace",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 234,
+    "name": "TakeoverFile2TiffPageReplace",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 212,
+    "name": "TakeoverFile2TiffDocumentError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 981,
+    "name": "WriteUserMail",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 4,
+    "minInstances": 1,
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 123,
+    "name": "TakeoverFile2PdfFileIgnore",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 333,
+    "name": "TakeoverFile2JpegPageIgnore",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 371,
+    "name": "TakeoverEArchiveprinter2orig_check",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeoverextensions",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 223,
+    "name": "TakeoverFile2TiffFileIgnore",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 370,
+    "name": "TakeoverOfficeNotes2PdfDocumentError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeoverextensions",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 331,
+    "name": "TakeoverFile2JpegPageDialog",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 413,
+    "name": "rsExcel",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "erender",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 502,
+    "name": "WaitForBatch",
+    "statusList": ["QUEUE"],
+    "loglevel": 0,
+    "maxInstances": 0,
+    "minInstances": 0,
+    "groupId": "batch",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 132,
+    "name": "TakeoverFile2PdfPageError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 400,
+    "name": "FileAnalyzer",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 4,
+    "minInstances": 1,
+    "groupId": "erender",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 124,
+    "name": "TakeoverFile2PdfFileReplace",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 480,
+    "name": "CreateReplacement",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 4,
+    "minInstances": 1,
+    "groupId": "erender",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 131,
+    "name": "TakeoverFile2PdfPageDialog",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 121,
+    "name": "TakeoverFile2PdfFileDialog",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 361,
+    "name": "TakeoverMailClient2PdfAndTiff",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeoverextensions",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 900,
+    "name": "Cleanup",
+    "statusList": ["WAITING", "WAITING"],
+    "loglevel": 4,
+    "maxInstances": 6,
+    "minInstances": 2,
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 800,
+    "name": "TaskRunner",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 114,
+    "name": "TakeoverFile2PdfDocumentReplace",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 500,
+    "name": "ProcessBatch",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "batch",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 113,
+    "name": "TakeoverFile2PdfDocumentIgnore",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 810,
+    "name": "TakeoverRestore",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "restore",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 213,
+    "name": "TakeoverFile2TiffDocumentIgnore",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 211,
+    "name": "TakeoverFile2TiffDocumentDialog",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 214,
+    "name": "TakeoverFile2TiffDocumentReplace",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 352,
+    "name": "TakeoverMail2JpegPageError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeovermail",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 231,
+    "name": "TakeoverFile2TiffPageDialog",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 332,
+    "name": "TakeoverFile2JpegPageError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 412,
+    "name": "rsImage",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 4,
+    "minInstances": 1,
+    "groupId": "erender",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 379,
+    "name": "GetDocumentFilesFromHdr",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeoverextensions",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 382,
+    "name": "TakeoverConcatPdfFiles2TiffFileError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeovereclient",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 491,
+    "name": "AdobeExtended",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 4,
+    "minInstances": 1,
+    "groupId": "erender",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 980,
+    "name": "Error",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 4,
+    "minInstances": 1,
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 415,
+    "name": "rsWord",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "erender",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 222,
+    "name": "TakeoverFile2TiffFileError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 590,
+    "name": "CheckEvent",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "batch",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 411,
+    "name": "rsHtml",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 4,
+    "minInstances": 1,
+    "groupId": "erender",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 224,
+    "name": "TakeoverFile2TiffFileReplace",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 490,
+    "name": "CreateDestination",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 4,
+    "minInstances": 1,
+    "groupId": "erender",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 802,
+    "name": "DeleteBackupMeta",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "backup",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 232,
+    "name": "TakeoverFile2TiffPageError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeover",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 351,
+    "name": "TakeoverMail2TiffFileError",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "takeovermail",
+    "noOfQueuedJobs": 0
+  },
+  {
+    "order": 801,
+    "name": "DeleteBackupFiles",
+    "statusList": ["WAITING"],
+    "loglevel": 4,
+    "maxInstances": 1,
+    "minInstances": 1,
+    "groupId": "backup",
+    "noOfQueuedJobs": 0
+  }
+]

@@ -11,3 +11,9 @@ build:
     api: server/Dockerfile.prod
     client: client/Dockerfile.prod
     worker: worker/Dockerfile.prod
+
+run:
+  nginx: nginx -g daemon off
+  api: npm run start
+  client: nginx -g daemon off
+  worker: npm run start
